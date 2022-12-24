@@ -20,14 +20,14 @@
 		<link type="text/plain" rel="author" href="/humans.txt" />
 
 		<!-- Meta data for link fetching -->
-		<meta property="og:url" content="https://flashtech.vercel.app/" />
-		<meta property="og:image" content="https://flashtech.vercel.app/banner.png" />
+		<meta property="og:url" content="https://flash.codebrain.dev/" />
+		<meta property="og:image" content="https://flash.codebrain.dev/banner.png" />
 		<meta property="og:title" content="Flash" />
 		<meta property="og:description" content="Read all your favourite tech news in one place." />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content="Flash" />
 		<meta name="twitter:description" content="Read all your favourite tech news in one place." />
-		<meta name="twitter:image" content="https://flashtech.vercel.app/banner.png" />
+		<meta name="twitter:image" content="https://flash.codebrain.dev/banner.png" />
 
 		<title>Flash - All your tech news in one place.</title>
 		<!-- Site scripts & styles -->
@@ -43,7 +43,8 @@
 			<main v-bind:style="'display: block;'">
 				<header class="row">
 					<div class="flex">
-						<div id="page-title" class="flex-1 bold" v-if="!showSources">Flash</div>
+						<div id="page-title" class="flex-1 bold" v-if="!showSources">
+								<a href="/">Flash</a></div>
 						<div id="page-title" class="flex-1 bold" v-if="showSources">&nbsp;</div>
 						<button id="lightning" v-on:click="toggleShowSourcesPage">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
